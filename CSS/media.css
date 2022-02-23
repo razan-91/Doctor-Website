@@ -1,0 +1,345 @@
+/* Smart Phones And Tablets */
+@media (max-width: 767px) {
+  .navbar {
+    position: relative;
+  }
+  .navbar-brand img {
+    width: 220px;
+  }
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .navbar-toggler {
+    position: absolute;
+    top: 28px;
+    right: 25px;
+  }
+  .navbar .dropdown {
+    right: 80px;
+    position: sticky;
+  }
+  .navbar-collapse {
+    justify-content: center;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    min-width: 200px;
+    top: calc(100%);
+  }
+  .navbar-expand-lg .navbar-nav .nav-item:not(:last-child) a {
+    border-bottom: 1px solid #ddd;
+  }
+  .navbar-expand-lg .navbar-nav .nav-item a {
+    min-width: 200px;
+    display: block;
+    margin: 0 40px;
+    padding: 15px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  .navbar-expand-lg .navbar-nav .nav-item a:hover {
+    padding-left: 25px;
+  }
+
+  .carousel-caption {
+    display: none;
+  }
+  .breadcrumb {
+    margin: 0 40px;
+  }
+  .intro {
+    margin-top: 20px;
+  }
+  .intro img {
+    width: 380px;
+    margin: 0 20px;
+  }
+  .intro h2 {
+    font-size: 28px;
+  }
+  .ask-us h2 {
+    font-size: 35px;
+  }
+  .about-us .card {
+    max-width: 320px;
+    margin: 20px auto;
+  }
+  .about-us .nd-sec {
+    margin-top: 40px;
+  }
+  .about-us .h1 {
+    margin-bottom: 0;
+  }
+  .about-us p {
+    font-size: 18px;
+  }
+  .about-us a {
+    margin-left: -15px;
+  }
+  .about-us span {
+    font-size: 18px;
+  }
+  .blog .card {
+    width: 350px;
+    margin: 15px auto;
+  }
+  .blog h3 {
+    font-size: 28px;
+    margin: 15px;
+    line-height: 1.9;
+  }
+  .blog .card img {
+    height: 220px;
+  }
+  .timeline .event {
+    padding-bottom: 0;
+    margin-bottom: 35px;
+    border-bottom: 1px solid rgba(160, 160, 160, 0.279);
+    padding-top: 10px;
+  }
+  .timeline .event::before {
+    left: 0;
+    top: -15px;
+    min-width: 0;
+    font-size: 13px;
+  }
+
+  .timeline h5 {
+    font-size: 16px;
+  }
+  .statistics .stats {
+    margin-bottom: 80px;
+  }
+  .business-hours .closed {
+    margin-left: 165px;
+  }
+  .footer {
+    font-size: 14px;
+  }
+  .footer .copyright {
+    display: inline-block;
+    text-align: center;
+  }
+  .footer .col ul {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  #scroll-top {
+    padding: 3px 6px;
+  }
+  .contact .container {
+    padding: 0;
+  }
+  .contact .form-area {
+    margin: 80px 20px 40px 40px;
+    margin: 0;
+  }
+}
+/* Small Screen */
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar {
+    position: relative;
+  }
+  .navbar-brand img {
+    width: 220px;
+  }
+  .navbar .btn {
+    position: absolute;
+    right: 250px;
+    top: 16px;
+  }
+  .navbar .dropdown {
+    position: absolute;
+    top: 30px;
+    left: 520px;
+  }
+  .navbar-collapse {
+    justify-content: center;
+    right: 0;
+    min-width: 100px;
+    top: calc(100%);
+  }
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .navbar-expand-lg .navbar-nav .nav-item:not(:last-child) a {
+    border-bottom: 1px solid #ddd;
+  }
+  .navbar-expand-lg .navbar-nav .nav-item a {
+    min-width: 200px;
+    display: block;
+    margin: 0 40px;
+    padding: 15px;
+    text-decoration: none;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+  }
+  .navbar-expand-lg .navbar-nav .nav-item a:hover {
+    padding-left: 25px;
+  }
+  .navbar-toggler {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+  }
+  .navbar .btn-primary {
+    display: none;
+  }
+  .breadcrumb {
+    margin: 0 20px;
+  }
+  .intro {
+    margin-top: 20px;
+  }
+  .intro img {
+    width: 380px;
+    margin: 0 120px;
+  }
+  .ask-us h2 {
+    font-size: 45px;
+  }
+  .about-us .card {
+    width: 300px;
+    margin: 20px auto;
+  }
+  .timeline .event {
+    padding-bottom: 15px;
+  }
+  .about-us .nd-sec {
+    margin-top: 40px;
+  }
+  .blog h3 {
+    font-size: 28px;
+    margin-bottom: 25px;
+    line-height: 1.9;
+  }
+  .blog .card {
+    width: 300px;
+  }
+  .blog .card img {
+    height: 185px;
+  }
+  .statistics p {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .business-hours .closed {
+    margin-left: 340px;
+  }
+  .footer {
+    font-size: 16px;
+  }
+  .footer .copyright {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer .col ul a {
+    margin-left: 1px;
+  }
+  .footer .col ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .footer .fab::before {
+    margin-left: 10px;
+  }
+}
+/* Medium Screen */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .navbar-brand img {
+    width: 200px;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-start;
+    margin-left: 0;
+  }
+  .navbar .dropdown {
+    position: absolute;
+    right: 340px;
+    left: 620px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    margin: 0;
+    font-size: medium;
+  }
+  .intro h2 {
+    font-size: 28px;
+  }
+  .intro img {
+    width: 380px;
+    margin: 40px 0;
+  }
+  .ask-us h2 {
+    font-size: 45px;
+  }
+  .about-us .card {
+    margin-right: 50px;
+  }
+  .timeline .event {
+    padding-bottom: 15px;
+  }
+  .blog h3 {
+    font-size: 30px;
+    margin-bottom: 35px;
+  }
+  .blog .card {
+    height: 620px;
+  }
+  .blog .card .card-title {
+    font-size: 17px;
+  }
+  .blog .card .card-text {
+    margin-bottom: 5px;
+  }
+  .blog .card img {
+    height: 125px;
+  }
+  .business-hours .closed {
+    margin-left: 145px;
+  }
+  .footer .copyright {
+    display: flex;
+    align-items: center;
+  }
+  .footer .col ul {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .col ul a {
+    margin-left: 10px;
+  }
+  .footer .fab::before {
+    margin-left: 10px;
+  }
+}
+/* Large Screen */
+@media (min-width: 1200px) {
+  .business-hours .closed {
+    margin-left: 58px;
+  }
+  .timeline .event {
+    padding-bottom: 20px;
+  }
+  .blog .card {
+    height: 620px;
+  }
+
+  .footer .col ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}
